@@ -28,7 +28,8 @@ public class Order {
     private Date orderPlacingDate;
     @Temporal(TemporalType.TIMESTAMP)
     private Date proposedDateToDo;
-    private String Address;
+    @OneToOne
+    private Address address;
     @Enumerated(EnumType.STRING)
     private OrderStatus orderStatus;
     @OneToMany(cascade = CascadeType.ALL)

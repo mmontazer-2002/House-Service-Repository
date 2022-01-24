@@ -21,5 +21,8 @@ public class Wallet {
     private Date createdDate;
     @UpdateTimestamp
     private Date updatedDate;
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    //@JoinColumn(name = "user_id", updatable = false, nullable = false, foreignKey = @ForeignKey(name = "WALLET_USER_FK"))
+    private User user;
 
 }

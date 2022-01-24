@@ -1,6 +1,6 @@
 package data.dto;
 
-import data.entity.enumration.CustomerStatus;
+import data.entity.enumration.UserStatus;
 import data.entity.enumration.Role;
 
 import java.util.Date;
@@ -13,6 +13,6 @@ public class PersonDto {
     private String lastName;
     private String email;
     private Date registrationDate;
-    private CustomerStatus clientStatus;
+    private UserStatus clientStatus;
     private Role role;
 }

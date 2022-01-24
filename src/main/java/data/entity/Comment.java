@@ -16,12 +16,8 @@ public class Comment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @Column(nullable = false)
-    private int rate;//todo
+    private int rate;
     private String comment;
-    /*@ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(updatable = false, nullable = false, foreignKey = @ForeignKey(name = "COMMENT_EXPERT_FK"))
-    private Expert expert;*/
-    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    //@JoinColumn(name = "order_id", updatable = false, nullable = false, foreignKey = @ForeignKey(name = "COMMENT_ORDER_FK"))
+    @ManyToOne(cascade = CascadeType.ALL)
     private Order order;
 }
