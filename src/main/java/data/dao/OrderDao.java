@@ -1,8 +1,8 @@
 package data.dao;
 
-import data.entity.Order;
-import data.entity.enumration.OrderStatus;
-import data.entity.SubService;
+import data.entities.Order;
+import data.entities.enumration.OrderStatus;
+import data.entities.SubService;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;

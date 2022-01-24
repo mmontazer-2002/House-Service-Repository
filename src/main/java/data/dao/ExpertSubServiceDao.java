@@ -1,8 +1,8 @@
 package data.dao;
 
-import data.entity.ExpertSubService;
-import data.entity.SubService;
-import data.entity.Expert;
+import data.entities.ExpertSubService;
+import data.entities.SubService;
+import data.entities.Expert;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

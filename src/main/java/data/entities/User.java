@@ -1,7 +1,5 @@
-package data.entity;
+package data.entities;
 
-import data.entity.enumration.UserStatus;
-import data.entity.enumration.Role;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;

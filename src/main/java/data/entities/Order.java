@@ -1,6 +1,6 @@
-package data.entity;
+package data.entities;
 
-import data.entity.enumration.OrderStatus;
+import data.entities.enumration.OrderStatus;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;

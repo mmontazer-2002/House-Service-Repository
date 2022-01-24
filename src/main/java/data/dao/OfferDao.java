@@ -1,8 +1,8 @@
 package data.dao;
 
-import data.entity.Offer;
-import data.entity.Order;
-import data.entity.Expert;
+import data.entities.Offer;
+import data.entities.Order;
+import data.entities.Expert;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

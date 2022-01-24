@@ -1,4 +1,4 @@
-package data.entity.enumration;
+package data.entities.enumration;
 
 /**
  * Created by Mahdie Montazeralzohoor on 1/11/2022 4:58 PM

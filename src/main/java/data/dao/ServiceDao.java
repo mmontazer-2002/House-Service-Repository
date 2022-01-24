@@ -1,6 +1,6 @@
 package data.dao;
 
-import data.entity.Service;
+import data.entities.Service;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

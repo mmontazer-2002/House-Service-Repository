@@ -1,7 +1,7 @@
-package data.entity;
+package data.entities;
 
 
-import data.entity.enumration.UserStatus;
+import data.entities.enumration.UserStatus;
 import lombok.*;
 
 import javax.persistence.*;

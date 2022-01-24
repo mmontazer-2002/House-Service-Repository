@@ -1,12 +1,10 @@
-package data.entity;
+package data.entities;
 
-import data.entity.enumration.UserStatus;
+import data.entities.enumration.UserStatus;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 /**
  * Created by Mahdie Montazeralzohoor on 1/11/2022 4:55 PM

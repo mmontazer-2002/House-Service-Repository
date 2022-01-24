@@ -1,7 +1,7 @@
 package data.dao;
 
-import data.entity.enumration.UserStatus;
-import data.entity.Expert;
+import data.entities.enumration.UserStatus;
+import data.entities.Expert;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;

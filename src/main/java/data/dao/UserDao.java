@@ -1,6 +1,6 @@
 package data.dao;
 
-import data.entity.User;
+import data.entities.User;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

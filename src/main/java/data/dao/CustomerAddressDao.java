@@ -1,7 +1,7 @@
 package data.dao;
 
-import data.entity.Address;
-import data.entity.CustomerAddress;
+import data.entities.Address;
+import data.entities.CustomerAddress;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,4 +1,4 @@
-package data.entity;
+package data.entities;
 
 import javax.persistence.*;
 import java.util.ArrayList;
