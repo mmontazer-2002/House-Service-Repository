@@ -15,6 +15,6 @@ public class SubService {
     private double basePrice;
     private String description;
     @ManyToMany(mappedBy = "subServices")
-    private List<Manager> experts = new ArrayList<>();
+    private List<Expert> expertList = new ArrayList<>();
 
 }

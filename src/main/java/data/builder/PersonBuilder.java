@@ -1,7 +1,8 @@
+/*
 package data.builder;
 
-import data.entity.Person;
-import data.entity.enumration.CustomerStatus;
+import data.entity.User;
+import data.entity.enumration.UserStatus;
 import data.entity.enumration.Role;
 
 
@@ -9,12 +10,12 @@ import java.util.Date;
 
 
 public class PersonBuilder {
-    Person person = new Person();
+    User person = new User();
 
     static PersonBuilder getBuilder(){
         return new PersonBuilder();
     }
-    public Person build(){
+    public User build(){
         return person;
     }
     public PersonBuilder withName(String name){
@@ -37,7 +38,7 @@ public class PersonBuilder {
         person.setRegistrationDate(registrationDate);
         return this;
     }
-    public PersonBuilder withClientStatus(CustomerStatus clientStatus){
+    public PersonBuilder withClientStatus(UserStatus clientStatus){
         person.setClientStatus(clientStatus);
         return this;
     }
@@ -47,3 +48,4 @@ public class PersonBuilder {
     }
 
 }
+*/
