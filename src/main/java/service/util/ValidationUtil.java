@@ -1,4 +1,4 @@
-package util;
+package service.util;
 
 /**
  * Created by Mahdie Montazeralzohoor on 1/12/2022 5:39 PM

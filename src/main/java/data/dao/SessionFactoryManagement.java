@@ -1,4 +1,4 @@
-package dao;
+package data.dao;
 
 import data.entity.*;
 import data.entity.User;
